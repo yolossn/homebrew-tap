@@ -2,16 +2,16 @@
 class Lazykubernetes < Formula
   desc ""
   homepage "https://github.com/yolossn/lazykubernetes"
-  version "0.1.0"
+  version "0.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/yolossn/lazykubernetes/releases/download/v0.1.0/lazykubernetes_Darwin_x86_64.zip"
-    sha256 "438b7b356bbf5c19fa8f61133d79b4ce02f4fe76ad7729184f4757ceab737744"
+    url "https://github.com/yolossn/lazykubernetes/releases/download/v0.1.1/lazykubernetes_Darwin_x86_64.zip"
+    sha256 "7d6a0461c2452b04ada86608636ba77758af326274155ded4b04cdfacc5ef412"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/yolossn/lazykubernetes/releases/download/v0.1.0/lazykubernetes_Linux_x86_64.zip"
-      sha256 "3206370ffb96698ba0b456c92eb5b9d8c28a351b43e66e19a3a21a78ae1212dd"
+      url "https://github.com/yolossn/lazykubernetes/releases/download/v0.1.1/lazykubernetes_Linux_x86_64.zip"
+      sha256 "cbd651456144540b64cc53f09073c4589f94b1b65f3819f341c379532c31da0e"
     end
   end
 
